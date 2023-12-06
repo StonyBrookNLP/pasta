@@ -1,0 +1,17 @@
+----
+Train_data shape :: (8476, 20)
+test_data shape :: (917, 20)
+val_data shape :: (1350, 20)
+\----
+-----------------------
+For test set
+-----------------------
+Namespace(task_list=[8], DEVICE='cuda:0', random_seed=1231, task8_setting='1', checkpoint='./model_checkpoint/t_8_1_m_t5-base_b_16_lr_0.0001_w_1e-06_s_0_epoch_1.pt', model_type='t5-base', story_type='full', val_story_type='full', te_story_type='full')
+For test set ::
+Accuracy :: 0.7609051254089422 Contrastive accuracy :: 0.6455834242093784
+Loss :: 0.23890496302881967
+-----------------------
+For validation set
+-----------------------
+Accuracy :: 0.7294444444444445 Contrastive accuracy :: 0.6174074074074074
+Loss :: 0.27015038574949324

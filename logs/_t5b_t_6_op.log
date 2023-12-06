@@ -1,0 +1,17 @@
+----
+Train_data shape :: (8476, 20)
+test_data shape :: (917, 20)
+val_data shape :: (1350, 20)
+\----
+-----------------------
+For test set
+-----------------------
+Namespace(task_list=[6], DEVICE='cuda:0', random_seed=1231, task8_setting='1', checkpoint='./model_checkpoint/t_6_m_t5-base_b_12_lr_0.0001_w_1e-06_s_0_epoch_1.pt', model_type='t5-base', story_type='full', val_story_type='full', te_story_type='full')
+For test set ::
+BERT score :: 0.7823905778100212
+Loss :: 1.0657064380853072
+-----------------------
+For validation set
+-----------------------
+BERT score :: 0.7825933502338551
+Loss :: 1.1714321011622277
